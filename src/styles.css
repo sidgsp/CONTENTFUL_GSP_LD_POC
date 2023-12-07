@@ -1,0 +1,1658 @@
+html {
+    -webkit-locale: "en";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    color: #000;
+    background-color: #fff;
+    line-height: 1.1875em;
+    overflow-x: hidden;
+    height: 100.01%;
+    font-family: Roboto,sans-serif;
+}
+
+.pt-storefront {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* HEADER */
+
+.site-header-band-container {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    background: linear-gradient(180deg, #00c9ff 0, #00c9ff 18%, #005dab 0, #005dab 73%, #004885 0, #004885);
+}
+
+.site-header {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 79.5rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.site-header p {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    margin: 0;
+}
+
+.site-header ul {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    margin-bottom: 1.25rem;
+    list-style: none;
+    padding-left: 0;
+}
+
+.site-header li {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    letter-spacing: .025em;
+    position: relative;
+    display: inline-block;
+    height: 2.5rem;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+}
+
+.customer-service-header {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    color: #fff;
+    font-size: .75rem;
+    text-align: center;
+    width: 100%;
+    z-index: 500;
+    background: linear-gradient(180deg,#00c9ff,#00c9ff 18%);
+    display: inline-table;
+    position: unset;
+}
+
+.customer-service-header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.customer-service-header span {
+    margin: 10px;
+}
+
+.html-slot-container {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.header-ticker {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 27px;
+    position: relative;
+}
+
+.progfil {
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    line-height: 27px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    font-size: .75rem;
+    margin: 0 1.25rem;
+    display: inline-block;
+    color: white;
+}
+
+.site-header-nav-large {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    text-transform: uppercase;
+    max-height: 85px;
+    display: block;
+    background: none;
+    color: #fff;
+    border-right: 0;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+}
+
+.logo {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    background: transparent;
+    display: inline-block;
+    max-width: 25%;
+    width: 100%;
+    min-height: 85px;
+    vertical-align: top;
+}
+
+.logo a {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    text-transform: uppercase;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+    padding: 0;
+    display: block;
+    transform: translateY(17px);
+    min-height: 60px;
+    box-sizing: border-box;
+}
+
+.logo picture {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    text-transform: uppercase;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.logo img {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    text-transform: uppercase;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    max-width: 100%;
+    display: block;
+    height: 39px;
+    margin-top: 5px;
+    width: auto;
+}
+
+.sitesearch {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    background: transparent;
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin: 1.4rem 2rem 0 0;
+    padding: 0;
+}
+
+.sitesearch form {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    position: relative;
+}
+
+.sitesearch label {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.sitesearch input {
+    -webkit-text-size-adjust: 100%;
+    display: block;
+    color: #000;
+    padding: .625rem .75rem;
+    border: 1px solid #d4d4d4;
+    border-radius: 0;
+    -webkit-appearance: none;
+    vertical-align: top;
+    margin: 0;
+    max-width: none;
+    height: 2.5rem;
+    width: 100%;
+    padding-right: 10%;
+    font-size: .8rem;
+    box-sizing: border-box;
+}
+
+.sitesearch button {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: button;
+    width: 10%;
+    margin: 0;
+    letter-spacing: normal;
+    top: 0;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    padding: 0;
+    text-align: center;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/Sites-LondonDrugs-Site/-/default/v1701681325414/img/search_icon.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline-block;
+    height: 40px;
+    right: 0;
+    background-size: 25px;
+}
+
+.header-nav-select-your-store {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    background: transparent;
+    padding-left: 2.5rem;
+    display: inline-block;
+    min-width: 7.8rem;
+    width: 15%;
+    height: auto;
+    vertical-align: top;
+    line-height: normal;
+    margin-top: 2.5rem;
+    position: relative;
+}
+
+.header-event-location-icons {
+    -webkit-text-size-adjust: 100%;
+    line-height: normal;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    display: block;
+    color: #fff;
+    padding: 0;
+    font-size: .625rem;
+    text-transform: none;
+}
+
+.locations-icon {
+    -webkit-text-size-adjust: 100%;
+    line-height: normal;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    color: #fff;
+    text-transform: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    position: relative;
+    display: inline-block;
+}
+
+.main-options {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+    float: right;
+    display: flex;
+    max-width: 19%;
+}
+
+.my-account-option {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    background: transparent;
+    position: relative;
+    border-color: transparent;
+    display: inline-block;
+    min-width: 142px;
+    height: 85px;
+    width: 29px;
+    vertical-align: top;
+    cursor: pointer;
+    float: unset;
+}
+
+.minicart {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    display: inline-block;
+    min-width: 70px;
+    height: 80px;
+    margin-top: 5px;
+    margin-right: .7rem;
+}
+
+.site-header-secondary-nav-large {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    width: 100%;
+    height: 30px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+.site-header-secondary-nav-large li {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    letter-spacing: .025em;
+    position: relative;
+    display: inline-block;
+    height: 2.5rem;
+    text-align: right;
+    list-style-type: none;
+    float: left;
+}
+
+.header-menu {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    font-weight: 500;
+    padding-right: 1.25rem;
+    color: #fff;
+    text-transform: capitalize;
+    padding-left: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    display: inline-block;
+}
+
+.menu-icon {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    list-style-type: none;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    text-align: right;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 2.5rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    display: inline-block;
+}
+
+.secondary-links {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    text-align: right;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.header-event-links {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    font-weight: 500;
+    padding-left: 1.25rem;
+    color: #fff;
+    padding-right: .9375rem;
+    height: 2.5rem;
+    display: inline-block;
+    line-height: 2.5rem;
+}
+
+.header-event-icons {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    font-weight: 500;
+    padding-left: 1.25rem;
+    color: #fff;
+    height: 2.5rem;
+    display: inline-block;
+    line-height: 2.5rem;
+    padding-right: 0;
+}
+
+/* MAIN */
+
+main {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    font-size: 100%;
+    font-weight: inherit;
+    box-sizing: border-box;
+    max-width: 79.5rem;
+    margin: 0 auto;
+    padding: 1.875rem .625rem 2.5rem;
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 10.3125rem!important;
+}
+
+.main-banner {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    margin-bottom: 1.25rem;
+    margin-top: -0.8rem;
+}
+
+.mkt-hero {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.mkt-left {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    color: white;
+    position: relative;
+    flex-basis: 68%;
+    min-width: 68%;
+    padding: 0;
+    border: 1px solid #DDD;
+    background-color: #004683;
+    width: 68%;
+}
+
+.mkt-left picture {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    color: #005dab;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.mkt-left img {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    color: #005dab;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+
+.product-banner {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.mkt-cta-btn-wrapper-abs {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 1.5rem;
+}
+
+.mkt-cta-btn {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    position: relative;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    border: solid;
+    border-width: 0.25rem 15px 0.25rem 8px;
+    border-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20width%3D%22100%22%20height%3D%2226%22%20viewBox%3D%220%200%20100%2026%22%20xml%3Aspace%3D%22preserve%22%3E%3Cg%3E%3Cpath%20fill%3D%22rgba%280%2C90%2C171%2C1%29%22%20stroke%3D%22white%22%20stroke-width%3D%222%22%20d%3D%22M2.7%2C25.5c-1.2%2C0-2.2-1-2.2-2.2V2.7c0-1.2%2C1-2.2%2C2.2-2.2h85.8c1.2%2C0%2C2.8%2C0.8%2C3.5%2C1.7l6.8%2C8.8c0.7%2C0.9%2C0.7%2C2.5%2C0%2C3.4l-7.3%2C9.4c-0.7%2C0.9-2.3%2C1.7-3.5%2C1.7H2.7z%22%20%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    border-image-slice: 49% 20;
+    border-image-width: 60px;
+    text-transform: uppercase;
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 0.8rem;
+    transition: all .25s ease;
+    margin: 0;
+}
+
+.mkt-right {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    position: relative;
+    padding: 0;
+    border: 1px solid #eee;
+    color: white;
+    width: 32%;
+}
+
+.mkt-right picture {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    color: #005dab;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.mkt-right img {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    color: #005dab;
+    font-family: Roboto,sans-serif;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+}
+
+.desktopLinks {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    display: block;
+}
+
+.subCatLinks {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    background-color: #005daa;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px 10px 20px;
+}
+
+.subCatLinks ul {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.subCatLinks li {
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    letter-spacing: .025em;
+    line-height: inherit;
+    display: inline-block;
+    padding: 2px;
+}
+
+.subCatLinks a {
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    line-height: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    color: #fff;
+    text-transform: inherit;
+    text-decoration: underline;
+    letter-spacing: normal;
+    font-size: 13px;
+}
+
+/* FOOTER */
+
+.footer-main {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    width: 100%;
+    padding-bottom: 2.625rem;
+}
+
+.newsletter-signup {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    background-color: #005dab;
+    padding: 0 0 1.25rem;
+}
+
+.newsletter-signup form {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    color: #fff;
+    max-width: 79.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-signup p {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    margin: 0;
+}
+
+.newsletter-signup input {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: 100%;
+    color: #000;
+    border-radius: 0;
+    appearance: none;
+    border: 2px solid #fff;
+    height: 44px;
+    font-size: .9375rem;
+    padding: 10px;
+    min-width: auto;
+    max-width: 70%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.ld-button {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: button;
+    width: 100%;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    vertical-align: top;
+    cursor: pointer;
+    transition: all .3s ease;
+    display: inline-block;
+    margin: 0;
+    padding: .6875rem 0 .75rem;
+    max-width: 20%;
+    height: 44px;
+}
+
+.ld-sg-heading {
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    margin-bottom: 1.875rem;
+    color: #323233;
+    font-family: Roboto,sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.footer-content {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    max-width: 76.875rem;
+    padding-top: 2.625rem;
+    margin: 0 auto;
+    padding-left: 1.25rem;
+}
+
+.footer-links {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    float: left;
+    padding-bottom: 0;
+    width: calc(26.33% - 120px);
+    margin-right: 7.5rem;
+    border-bottom: 0;
+}
+
+.footer-links ul {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.footer-links li {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    letter-spacing: .025em;
+}
+
+.ld-sg-link {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    vertical-align: baseline;
+    padding: 0;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    display: inline-block;
+    margin: .875rem 0;
+    color: #323233;
+    font-size: .6875rem;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.social-links {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    float: left;
+    clear: left;
+    text-align: left;
+    border-top: 1px solid #000;
+    width: calc(33.33% - 120px);
+    margin-right: 7.5rem;
+    margin-top: 2.5rem;
+    padding: 0;
+}
+
+.facebook {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/Sites-LondonDrugs-Site/-/default/v1701940536864/img/sprite.png);
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-position: -253px -154px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.twitter {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-size: 60%;
+    background-position: center center;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/-/Library-Sites-LondonDrugs-content-Library/default/dw0d9bfce4/icon/x-twitter-logo.svg) !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-top: 2px;
+    background-color: black;
+}
+
+.pinterest {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/Sites-LondonDrugs-Site/-/default/v1701940536864/img/sprite.png);
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-position: -253px -46px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.instagram {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-size: initial;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/-/Library-Sites-LondonDrugs-content-Library/default/dw01d795cd/icon/instagram-icon.png) !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.youtube {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/Sites-LondonDrugs-Site/-/default/v1701940536864/img/sprite.png);
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-position: -253px -190px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.tiktok {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    position: relative;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    text-indent: -999999px;
+    border-radius: 50%;
+    background-size: initial;
+    background-image: url(https://www.londondrugs.com/on/demandware.static/-/Library-Sites-LondonDrugs-content-Library/default/dwaaef1f36/icon/tiktok-icon.png) !important;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 36px;
+    height: 36px;
+}
+
+.copyright-legal {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .625rem;
+    float: left;
+    position: relative;
+    padding-left: 9.6875rem;
+    text-align: left;
+    margin-top: 2.5rem;
+}
+
+.copyright-legal ul {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: .75rem;
+    letter-spacing: .025em;
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: .375rem;
+}
+
+.copyright-legal li {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    letter-spacing: .025em;
+    display: inline-block;
+}
+
+.copyright-legal a {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.1875em;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: baseline;
+    padding: 0;
+    color: #005dab;
+    text-decoration: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .01562rem;
+    word-break: break-word;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    position: static;
+}
+
+.copyright-legal span {
+    -webkit-text-size-adjust: 100%;
+    color: #000;
+    line-height: 1.1875em;
+    font-family: Roboto,sans-serif;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-weight: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
