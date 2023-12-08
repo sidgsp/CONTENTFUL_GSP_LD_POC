@@ -1,18 +1,17 @@
-function CategoryListHero({ data }) {
-  console.log('cat', data);
+function CategoryBanner({ data }) {
   return (
     <div className="desktopLinks">
       <div className="subCatLinks">
-        {/* <ul>
+        <ul>
           { data.categories.map((category) => (
             <li key={category.fields.title}>
               <a href={category.fields.link}>{category.fields.label}</a>
             </li>
           )) }
-        </ul> */}
+        </ul>
       </div>
     </div>
   );
 }
 
-export default CategoryListHero;
+export default CategoryBanner;

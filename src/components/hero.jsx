@@ -1,29 +1,7 @@
-import useSWR from 'swr';
-
-import { Spinner } from '@contentful/f36-spinner';
-
-function MainBanner({ client, data }) {
-  const fetcher = async () => {
-    const column = await client.getEntry(data.columns[0].sys.id);
-
-    return {
-      column
-    }
-  }
-
-  const { columns, error } = useSWR('contentful', fetcher);
-
-  if (error) {
-    console.log(error);
-    return <div>failed to load </div>;
-  }
-  if (!data) return <Spinner size="large" />;
-
-  console.log('banner', columns);
-
+function Hero({ data }) {
   return (
     <div className="main-banner">
-      {/* <div className="mkt-hero">
+      <div className="mkt-hero">
         <div className="mkt-left">
           <a href={data.columns[0].fields.ctaLink} data-category="HmHero" data-action="Shop Now" data-label="Banner:Hero1:Appliance Savings Event" className="product-banner">
             <picture>
@@ -44,9 +22,9 @@ function MainBanner({ client, data }) {
             <a className="mkt-cta-btn" href={data.columns[1].fields.ctaLink} data-category="HmHero" data-action="Shop Now" data-label="Banner:Hero2: Stocking Stuffer">{data.columns[1].fields.ctaLabel}</a>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
 
-export default MainBanner;
+export default Hero;

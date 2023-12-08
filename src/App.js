@@ -1,7 +1,10 @@
 import Header from './components/header';
 import Footer from './components/footer';
-import CategoryListHero from './components/categoryListHero';
-import MainBanner from './components/mainBanner';
+import Hero from './components/hero';
+import CategoryBanner from './components/categoryBanner';
+import SubBanner from './components/subBanner';
+import Carousel from './components/carousel';
+import TileArray from './components/tileArray';
 
 import useSWR from 'swr';
 
@@ -15,17 +18,24 @@ function App() {
   });
   
   const fetcher = async () => {
-    const entry = await client.getEntry('4mHy7dxXGJrPquagQz1XXg');
+    const entry = await client.getEntries({
+      content_type: 'page',
+      'sys.id': '4mHy7dxXGJrPquagQz1XXg',
+      include: 10
+    });
 
-    console.log(entry)
+    // console.log(entry)
   
-    const { fields } = entry;
+    const { items } = entry;
   
     return {
-      title: fields.title,
-      hero: fields.sections[0].fields,
-      categories: fields.sections[1].fields
-    }
+      title: items[0].fields.title,
+      hero: items[0].fields.sections[0].fields,
+      category_banner: items[0].fields.sections[1].fields,
+      extended_returns_sub_banner: items[0].fields.sections[2].fields,
+      believe_in_better_sub_banner: items[0].fields.sections[3].fields,
+      raising_awareness_sub_banner: items[0].fields.sections[4].fields
+    };
   }
 
   const { data, error } = useSWR('contentful', fetcher);
@@ -36,15 +46,25 @@ function App() {
   }
   if (!data) return <Spinner size="large" />;
 
-  console.log('app', data);
-
   return (
     <div className='pt_storefront'>
       <Header />
       <main>
         <div className="html-slot-container">
-          <MainBanner client={client} data={data.hero} />
-          <CategoryListHero data={data.categories} />
+          <Hero data={data.hero} />
+          <CategoryBanner data={data.category_banner} />
+          <SubBanner data={data.extended_returns_sub_banner} />
+          <br />
+          <Carousel />
+          <TileArray />
+          <Carousel />
+          <TileArray />
+          <Carousel />
+          <TileArray />
+          <Carousel />
+          <SubBanner data={data.believe_in_better_sub_banner} />
+          <SubBanner data={data.raising_awareness_sub_banner} />
+          <Carousel />
         </div>
       </main>
       <Footer />

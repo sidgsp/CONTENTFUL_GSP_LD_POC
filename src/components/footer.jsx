@@ -106,7 +106,7 @@ function Footer () {
             <li><a href="https://www.londondrugs.com/london-drugs-privacy-policy/PrivacyPolicy.html">Privacy Policy</a></li>
             <li><a href="https://www.londondrugs.com/security-policy-and-cookie-notice/PrivacySecurity.html">Security Policy &amp; Cookie Notice</a></li>
             <li><a href="https://www.londondrugs.com/sitemap/">Sitemap</a></li>
-            <li id="noibuHelpCode" style={{'display':'none'}}><a onClick="showNoibuHelpCode();" id="noibuHelpCodeBtn">Help Code</a></li>
+            <li id="noibuHelpCode" style={{'display':'none'}}><a id="noibuHelpCodeBtn">Help Code</a></li>
           </ul>
           <a href="https://www.londondrugs.com/ldhome/"><img alt="London Drugs" src="https://www.londondrugs.com/on/demandware.static/-/Library-Sites-LondonDrugs-content-Library/default/dw3bf82fe4/images/logos/LD-logo_100x42.png" /></a>
           <span>© 2023 London Drugs. All rights reserved.</span>
