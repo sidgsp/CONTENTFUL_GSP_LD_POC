@@ -4,8 +4,8 @@ function CategoryBanner({ data }) {
       <div className="subCatLinks">
         <ul>
           { data.categories.map((category) => (
-            <li key={category.fields.title}>
-              <a href={category.fields.link}>{category.fields.label}</a>
+            <li key={category.sys.id}>
+              <a href={category.fields.ctaLink}>{category.fields.ctaLabel}</a>
             </li>
           )) }
         </ul>

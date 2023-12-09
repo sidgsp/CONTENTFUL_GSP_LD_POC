@@ -33,8 +33,11 @@ function App() {
       hero: items[0].fields.sections[0].fields,
       category_banner: items[0].fields.sections[1].fields,
       extended_returns_sub_banner: items[0].fields.sections[2].fields,
-      believe_in_better_sub_banner: items[0].fields.sections[3].fields,
-      raising_awareness_sub_banner: items[0].fields.sections[4].fields
+      tile_array1: items[0].fields.sections[3].fields,
+      tile_array2: items[0].fields.sections[4].fields,
+      tile_array3: items[0].fields.sections[5].fields,
+      believe_in_better_sub_banner: items[0].fields.sections[6].fields,
+      raising_awareness_sub_banner: items[0].fields.sections[7].fields
     };
   }
 
@@ -56,11 +59,11 @@ function App() {
           <SubBanner data={data.extended_returns_sub_banner} />
           <br />
           <Carousel />
-          <TileArray />
+          <TileArray data={data.tile_array1} />
           <Carousel />
-          <TileArray />
+          <TileArray data={data.tile_array2} />
           <Carousel />
-          <TileArray />
+          <TileArray data={data.tile_array3} />
           <Carousel />
           <SubBanner data={data.believe_in_better_sub_banner} />
           <SubBanner data={data.raising_awareness_sub_banner} />
