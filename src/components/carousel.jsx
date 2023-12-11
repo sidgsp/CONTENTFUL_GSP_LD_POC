@@ -1,5 +1,4 @@
 function Slide({ data }) {
-  console.log(data)
   return (
     <div className="slick-slide">
       <a href={data.link} className="product-image-link">
