@@ -1,3 +1,5 @@
+import { useContentfulInspectorMode } from '@contentful/live-preview/react';
+
 function Tile({ data }) {
   return (
     <div className="content-item">
@@ -45,8 +47,13 @@ function Tile({ data }) {
 }
 
 function TileArray({ data }) {
+  const entry_id = data.sys.id;
+  data = data.fields;
+
+  const inspectorProps = useContentfulInspectorMode({ entryId: entry_id });
+  
   return (
-    <div className="html-slot-container">
+    <div className="html-slot-container" {...inspectorProps({ fieldId: 'sections' })}>
       <section className="content-container-wrapper">
         <div className="content-container">
           { data.tiles.map((tile) => (

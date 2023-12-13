@@ -1,6 +1,13 @@
+import { useContentfulInspectorMode } from '@contentful/live-preview/react';
+
 function Hero({ data }) {
+  const entry_id = data.sys.id;
+  data = data.fields;
+
+  const inspectorProps = useContentfulInspectorMode({ entryId: entry_id });
+
   return (
-    <div className="main-banner">
+    <div className="main-banner" {...inspectorProps({ fieldId: 'sections' })}>
       <div className="mkt-hero">
         <div className="mkt-left">
           <a href={data.columns[0].fields.ctaLink} data-category="HmHero" data-action="Shop Now" data-label="Banner:Hero1:Appliance Savings Event" className="product-banner">

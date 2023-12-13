@@ -1,3 +1,5 @@
+import { useContentfulInspectorMode } from '@contentful/live-preview/react';
+
 function Slide({ data }) {
   return (
     <div className="slick-slide">
@@ -28,8 +30,13 @@ function Slide({ data }) {
 }
 
 function Carousel({ data }) {
+  const entry_id = data.sys.id;
+  data = data.fields;
+
+  const inspectorProps = useContentfulInspectorMode({ entryId: entry_id });
+
   return (
-    <div className="banner-carousel-wrapper">
+    <div className="banner-carousel-wrapper" {...inspectorProps({ fieldId: 'sections' })}>
       <h2 className="ld-sg-heading-carousel">
         <a href="https://www.londondrugs.com/clearance/" style={{'fontSize':'100%'}} title="See all Last Chance">{data.label}</a>
       </h2>
