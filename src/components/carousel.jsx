@@ -1,6 +1,8 @@
 import { useContentfulInspectorMode } from '@contentful/live-preview/react';
 
 function Slide({ data }) {
+  console.log(data)
+
   return (
     <div className="slick-slide">
       <a href={data.link} className="product-image-link">
@@ -11,13 +13,13 @@ function Slide({ data }) {
           <p className="brand">MARTEX</p>
           <h3 className="ld-sg-heading-slide">{data.label}</h3>
           <ul className="product-slide-pricing">
-            { data.markdownPrice
+            { data.unit.markdownPrice
               ? <>
-                  <li className="markdown-price"><p>{data.markdownPrice}</p></li>
-                  <li className="original-price"><p>{data.originalPrice}</p></li>
+                  <li className="markdown-price"><p>{data.unit.markdownPrice}</p></li>
+                  <li className="original-price"><p>{data.unit.originalPrice}</p></li>
                 </>
               
-              : <li className="price"><p>{data.originalPrice}</p></li>
+              : <li className="price"><p>{data.unit.originalPrice}</p></li>
             }
           </ul>
         </a>
