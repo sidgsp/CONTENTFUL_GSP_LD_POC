@@ -47,8 +47,6 @@ function Page({ draftMode, entry }) {
 
   const data = draftMode ? parseEntry(updatedEntry) : parseEntry(entry);
 
-
-
   return (
     <div className='pt_storefront'>
       <Header />
