@@ -41,7 +41,7 @@ function Page({ draftMode, entry }) {
       raising_awareness_sub_banner: items[0].fields.sections[11],
       heaters_carousel: items[0].fields.sections[12]
     };
-  }
+  };
 
   const updatedEntry = draftMode ? useContentfulLiveUpdates(entry) : null;
 
