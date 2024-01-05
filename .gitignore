@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/price-custom-app
 /.pnp
 .pnp.js
 
